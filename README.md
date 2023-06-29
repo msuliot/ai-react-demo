@@ -11,7 +11,7 @@ https://github.com/msuliot/ai-api-demo
 ## Installation
 
 1. Must have NodeJS.
-2. Get repository
+2. Get repository clone or download zip
 ```bash
 git clone https://github.com/msuliot/ai-react-demo.git
 ```
@@ -26,3 +26,6 @@ npm install
 ```bash
 npm run start
 ```
+
+This demo app will call the API
+(ai-api-demo) https://github.com/msuliot/ai-api-demo
