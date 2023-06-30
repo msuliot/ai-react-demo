@@ -5,7 +5,7 @@ const PageTitleDescription = ({pageTitle}) => {
 
     return (
         <div className="bgColor">
-        <div className="pageTitle">{pageTitle}</div>
+            <div className="pageTitle">{pageTitle}</div>
         </div>
     )
 }

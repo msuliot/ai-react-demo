@@ -29,7 +29,7 @@ const Chat = () => {
     setDivVisible(false);
   }, []);
 
-  // Handlers and functions
+  // Main Logic Handler
   const handleEnter = async () => {
     handleClearClick();
     addObjectToArray("message-right", question);
@@ -42,7 +42,7 @@ const Chat = () => {
 
     setDivVisible(true);
 
-    // call the API
+    // The FetchData component will call the API
     FetchData(question)
     .then(response => {
         if (response) {
